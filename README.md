@@ -1,4 +1,4 @@
-# Projeto-11---API-Tweteroo
+# API-Tweteroo
 Primeiro projeto trabalhando com back-end, construindo API de app semelhante ao Twitter. 
 
  <p> Abaixo, a aplicação rodando no front.</p>
