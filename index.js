@@ -33,6 +33,20 @@ app.get('/tweets', (req, res) => {
     res.send(ultimosTweets.reverse());
 })
 
+app.post('/tweets', (req, res) => {
+    const tweet = req.body;
+    if (tweet.username !== "" && tweet.tweet !== ""){
+        tweets = [
+            ...tweets,
+            {
+                username: tweet.username,
+                avatar: usuarios.find(usuario => usuario.username === req.body.username).avatar,
+                tweet: tweet.tweet
+            }
+        ];
+        res.send("OK");
+    }
+});
 
 app.listen(5000, () => {
     console.log(chalk.bold.yellow('Ola o servidor está funcionando!!!!'));
