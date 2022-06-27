@@ -1,5 +1,11 @@
 # API-Tweteroo
-Primeiro projeto trabalhando com back-end, construindo API de app semelhante ao Twitter. 
+Construindo API de app semelhante ao Twitter. 
+
+Programa feito utilizando Node.js
+
+Bibliotecas utilizadas: express, json, cors.
+
+A aplicação deve oferecer suporte para que seja possível logar usuários, exibir e enviar novas mensagens.
 
  <p> Abaixo, a aplicação rodando no front.</p>
 <div align="center">
